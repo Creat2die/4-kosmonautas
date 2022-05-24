@@ -5,6 +5,18 @@ header{
     margin-bottom: 30px;
 }
 
+header > img{
+
+}
+
+nav > a{
+    background-color: antiquewhite;
+}
+
+a{
+
+}
+
 main{
     width: 800px;
     background-color: rgb(119, 0, 255);
