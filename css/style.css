@@ -14,17 +14,60 @@ nav{
 nav > a{
     float:left;
     margin-left: 10px;
-    background-color: antiquewhite;
     font-size: 20px;
     line-height: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 nav > a:first-of-type {
     margin-left:0;
 }
 
-a{
+main > div{
+    width: 40%;
+    float: left;
+}
 
+main h1{
+    font-size: 60px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+main h2{
+    margin:0px;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+
+main p{
+    color: #777;
+}
+
+main > img{
+    width: 50%;
+    float: right;
+
+}
+
+div > div{
+    margin-top:20px;
+}
+
+main a{
+    text-decoration: none;
+    background-color: #648;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    color: white;
+    border:solid 2px #648;
+    display: inline-block;
+}
+
+main a:last-child{
+    background-color: white;
+    color:#648;
 }
 
 
@@ -34,6 +77,5 @@ footer, main, header{
     margin-left: calc((100% - 800px) / 2) ;
     margin-right: calc((100% - 800px) / 2) ;
     width: 800px;
-    background-color: rgb(206, 238, 25);
     margin-bottom: 30px;
 }
