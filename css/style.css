@@ -41,8 +41,18 @@ main h2{
     letter-spacing: -2px;
 }
 
+main hr{
+    width: 100px;
+    float: left;
+    height: 5px;
+    background-color:#648;
+    border-radius: 2px;
+    border:none;
+}
+
 main p{
     color: #777;
+    display: inline-block;
 }
 
 main > img{
