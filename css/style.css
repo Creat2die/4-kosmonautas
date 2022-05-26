@@ -89,3 +89,30 @@ footer, main, header{
     width: 800px;
     margin-bottom: 30px;
 }
+footer{
+    margin-top: 100px;
+}
+
+footer div{
+    float:left;
+}
+
+footer div > a{
+    float: left;
+    text-decoration: none;
+    color: silver;
+    font-size: 20px;
+}
+
+footer div > a + a{
+    margin-left: 15px;
+}
+
+footer div > a:hover{
+    color: #648;
+}
+
+footer p{
+    float:right;
+    margin: 0px;
+}
