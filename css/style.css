@@ -20,6 +20,10 @@ nav > a{
     color: black;
 }
 
+nav > a:hover{
+    text-decoration: underline;
+}
+
 nav > a:first-of-type {
     margin-left:0;
 }
@@ -27,6 +31,10 @@ nav > a:first-of-type {
 main > div{
     width: 40%;
     float: left;
+}
+
+main a:hover{
+    box-shadow: 0px 2px 8px #0003;
 }
 
 main h1{
@@ -58,7 +66,13 @@ main p{
 main > img{
     width: 50%;
     float: right;
+    transition: all 2s;
 
+}
+
+main > img:hover{
+    transform: rotate(120deg);
+    transition: all 2s;
 }
 
 div > div{
@@ -102,14 +116,31 @@ footer div > a{
     text-decoration: none;
     color: silver;
     font-size: 20px;
+    transition: all 3s;
+}
+
+footer div > a:hover{
+    transition: all 0.5s;
 }
 
 footer div > a + a{
     margin-left: 15px;
 }
 
-footer div > a:hover{
-    color: #648;
+footer div > a:nth-of-type(1):hover{
+    color: blue;
+}
+
+footer div > a:nth-of-type(2):hover{
+    color: red;
+}
+
+footer div > a:nth-of-type(3):hover{
+    color: green;
+}
+
+footer div > a:nth-of-type(4):hover{
+    color: yellow;
 }
 
 footer p{
